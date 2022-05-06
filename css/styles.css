@@ -520,15 +520,17 @@ input[type="checkbox"] {
 /*     Header     */
 /******************/
 .header {
+  height: 100vh;
   padding-top: 7rem;
   padding-bottom: 5.5rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../images/black\ lady.jpg") center center no-repeat;
+    url("../images/black-lady.jpg") center center no-repeat;
   background-size: cover;
   text-align: center;
 }
 
 .header .h1-large {
+  font-size: 20px;
   margin-bottom: 1.75rem;
   color: #ffffff;
 }
@@ -600,7 +602,8 @@ input[type="checkbox"] {
 .basic-2 .text-box {
   margin-bottom: 3rem;
   padding: 3.5rem 1rem 2.125rem 1rem;
-  border: 2px dashed rgb(34, 12, 224);
+  border: 2px solid rgb(34, 12, 224);
+  border-radius: 10px;
 }
 
 .basic-2 .fas,
@@ -891,8 +894,11 @@ input[type="checkbox"] {
 /*     Copyright     */
 /*********************/
 .copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   background-color: #24262a;
   text-align: center;
 }
