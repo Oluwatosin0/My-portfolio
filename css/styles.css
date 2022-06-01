@@ -575,11 +575,12 @@ input[type="checkbox"] {
   padding-bottom: 5.25rem;
 }
 .basic-1 .text-container.first{
-  width: 350px;
-  height: 400px;
-  padding: 10px;
-  text-align: center;
-  font-size: 18px;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    
+    text-align: center;
+    font-size: 18px;
 }
 .basic-1 .text-container.second{
     width: 350px;
@@ -700,21 +701,17 @@ input[type="checkbox"] {
   padding-top: 7.75rem;
   padding-bottom: 1rem;
 }
-
 .basic-3 .h2-heading {
   margin-bottom: 0.75rem;
   text-align: center;
 }
-
 .basic-3 .p-heading {
   margin-bottom: 4rem;
   text-align: center;
 }
-
 .basic-3 .text-container {
   margin-bottom: 4rem;
 }
-
 .basic-3 .image-container {
   margin-bottom: 1rem;
 }
