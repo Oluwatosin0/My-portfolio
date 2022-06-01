@@ -6,11 +6,8 @@ Table Of Contents:
 - Navigation
 - Header
 - About
-- Services
 - Details
 - Projects
-- Works
-- Testimonials
 - Questions
 - Contact
 - Footer 
@@ -105,6 +102,7 @@ h6 {
 .p-small {
   font-size: 0.875rem;
   line-height: 1.5rem;
+  color: #ffffff;
 }
 
 .testimonial-text {
@@ -528,7 +526,7 @@ input[type="checkbox"] {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  url("../images/black-lady.jpg") center center no-repeat;
+  url("../images/background\ -image.jpg") center center no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -703,11 +701,21 @@ input[type="checkbox"] {
 }
 .basic-3 .h2-heading {
   margin-bottom: 0.75rem;
-  text-align: center;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+}
+.basic-3 .body {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;
+
 }
 .basic-3 .p-heading {
   margin-bottom: 4rem;
-  text-align: center;
+  text-align: left;
 }
 .basic-3 .text-container {
   margin-bottom: 4rem;
@@ -770,52 +778,7 @@ input[type="checkbox"] {
 /* end of hover animation */
 
 /************************/
-/*     Testimonials     */
-/************************/
-.cards-1 {
-  padding-top: 3rem;
-  padding-bottom: 3.875rem;
-}
 
-.cards-1 .h2-heading {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.cards-1 .card {
-  margin-bottom: 4rem;
-  border: none;
-}
-
-.cards-1 .card-body {
-  padding: 0;
-  text-align: center;
-}
-
-.cards-1 .testimonial-text {
-  margin-bottom: 1.625rem;
-}
-
-.cards-1 img {
-  display: inline-block;
-  width: 60px;
-  margin-bottom: 0.875rem;
-  border-radius: 50%;
-}
-
-.cards-1 .text {
-  margin-top: 0.375rem;
-}
-
-.cards-1 .testimonial-author {
-  color: #24262a;
-}
-
-.cards-1 .testimonial-author,
-.cards-1 .occupation {
-  font-size: 0.875rem;
-  line-height: 1.375rem;
-}
 
 /*********************/
 /*     Questions     */
@@ -880,15 +843,18 @@ input[type="checkbox"] {
   padding-top: 7.75rem;
   padding-bottom: 7rem;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 
 .form-1 .h2-heading {
   margin-bottom: 0.75rem;
   text-align: center;
+  
 }
 
 .form-1 .p-heading {
   margin-bottom: 4rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 /******************/
@@ -940,16 +906,19 @@ input[type="checkbox"] {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #24262a;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  color: white;
 }
 
 .copyright .p-small {
-  color: #9da6ac;
+  color: #ffffff
   text-align: center;
 }
 
 .copyright a {
-  color: #9da6ac;
+  color: #ffffff;
 }
 
 /******************************/
