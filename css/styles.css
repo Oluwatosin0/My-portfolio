@@ -721,15 +721,17 @@ input[type="checkbox"] {
   text-align: center;
 }
 .basic-3 .text-container {
-  width: 50px;
-  height: auto;
-  text-align: center;
   margin-bottom: 4rem;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.basic-3 .icons-container{
+  margin-bottom: 4rem;
+  text-align: center;
 }
 .basic-3 .image-container {
   margin-bottom: 1rem;
 }
-
 /* Hover Animation */
 .basic-3 .image-container {
   overflow: hidden;
@@ -790,7 +792,7 @@ input[type="checkbox"] {
 /*     Questions     */
 /*********************/
 .accordion-1 {
-  padding-top: 7.75rem;
+  padding-top: 4.75rem;
   padding-bottom: 6.75rem;
 }
 
@@ -839,7 +841,7 @@ input[type="checkbox"] {
 }
 
 .accordion-1 .card-body {
-  padding: 0.75rem 1.5rem 0.5rem 1.5rem;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
 }
 
 /*******************/
@@ -869,6 +871,7 @@ input[type="checkbox"] {
 .footer {
   padding-top: 1.5rem;
   padding-bottom: 2rem;
+  margin: 0;
   background-color: #24262a;
   text-align: center;
 }
