@@ -616,10 +616,14 @@ input[type="checkbox"] {
   font-weight: 600;
   font-size: 0.985rem;
   line-height: 1.5rem;
-  font-family: "Poppins";
+  font-family:'Dancing Script', cursive;
 }
 .basic-1 h6 {
   margin-bottom: 1.25rem;
+  color: rgb(35, 11, 248);
+  font-size: 22px;
+  line-height: 1.5rem;
+   font-family: 'Dancing Script', cursive;
 }
 
 /********************/
@@ -705,24 +709,21 @@ input[type="checkbox"] {
   font-family: 'Dancing Script', cursive;
 }
 .basic-3 .body {
-  height: 50vh;
+  height: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 .basic-3 .p-heading {
   margin-bottom: 4rem;
-  text-align: left;
+  text-align: center;
 }
 .basic-3 .text-container {
   width: 50px;
   height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
+  text-align: center;
   margin-bottom: 4rem;
 }
 .basic-3 .image-container {
